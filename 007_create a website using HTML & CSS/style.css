@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.nav {
+    height: 15%;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav .logo {
+    color: #8cda3f;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+.nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 22px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.box {
+    width: 1240px;
+    height: 85vh;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box .text,
+.box .img {
+    width: 50%;
+}
+
+.text h1 {
+    color: #8cda3f;
+    font-size: 65px;
+    font-weight: 900;
+    word-spacing: 5px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.text p {
+    color: white;
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.text button {
+    font-size: 17px;
+    letter-spacing: 3px;
+    padding: 15px 55px;
+    font-weight: bold;
+    border: 2px solid #8cda3f;
+    color: #8cda3f;
+    border-radius: 30px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.text button:hover {
+    background-color: #8cda3f;
+    color: white;
+    transition: 1s;
+}
+
+.img {
+    align-items: center;
+    display: inline-block;
+}
+
+.img img {
+    width: 80%;
+    height: auto;
+    float: right;
+}
